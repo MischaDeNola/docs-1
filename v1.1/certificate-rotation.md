@@ -126,7 +126,7 @@ Suppose your existing CA and node certificates are created in the `certs` direct
 Then to rotate the CA certificate, first rename the existing CA key:
 
 ~~~ shell
-$ mv ca.key ca.old.key
+$ mv  my-safe-directory/ca.key my-safe-directory/ca.old.key
 ~~~
 
 Then use the `--overwrite` flag to generate a new CA certificate and key. 
